@@ -114,14 +114,14 @@ def plot_result(result_dict, show_windows=True, savefile=None):
     gs = gridspec.GridSpec(max_height, 8)
 
     # draw logo
-    ax = plt.subplot(gs[:3, -1:])
-    ax.axis("off")
-    filename = os.path.join(
-        os.path.dirname(os.path.realpath(rqalpha.__file__)),
-        "resource", 'ricequant-logo.png')
-    img = mpimg.imread(filename)
-    ax.imshow(img, interpolation="nearest")
-    ax.autoscale_view()
+    # ax = plt.subplot(gs[:3, -1:])
+    # ax.axis("off")
+    # filename = os.path.join(
+    #     os.path.dirname(os.path.realpath(rqalpha.__file__)),
+    #     "resource", 'ricequant-logo.png')
+    # img = mpimg.imread(filename)
+    # ax.imshow(img, interpolation="nearest")
+    # ax.autoscale_view()
 
     # draw risk and portfolio
 
